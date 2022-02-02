@@ -1,42 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" dir="ltr">
 <head>
-    <!--Meta Tags-->
-    <meta name="author" content="Edu">
-    <meta name="description" content="Hi, my name is Edu👋">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <!--Link Fonts Import-->
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <!--Link Tags-->
-    <link rel="shortcut icon" href="./img/ProfileImage_Github.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/body.css">
-    <link rel="stylesheet" href="./style/mediaquery.css">
-    <title>Notefct</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Notefct.codes</title>
+    
+    <meta name="title" content="Notefct.codes"/>
+    <meta name="description" content="Hi, i'm a Edu👋"/>
+    <meta name="author" content="Edu"/>
+    <meta name="keywords" content=""/>
+    
+    <meta property="og:site_name" content="Notefct"/>
+    <meta property="og:title" content="Notefct"/>
+    <meta property="og:description" content="Hi, i'm a Edu👋"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://notefct.codes"/>
+    
+    <link rel="canonical" href="https://notefct.codes"/>
+    <link rel="x-default" href="https://notefct.codes"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:author" content="@Notefct"/>
+    <meta name="twitter:url" content="https://notefct.codes"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./img/ProfileImage_Github.png" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./style/body.css"/>
+    <link rel="stylesheet" type="text/css" href="./style/mediaquery.css"/>
 </head>
 <body>
-    <figure class="figure-global">
-        <img class="profile-github" src="./img/ProfileImage_Github.png" width="192px" height="192px">
-    </figure>
-   <header class="header-global">
-       <h1 class="header-github-name">
-           Hi, my name is Edu👋
-           
-       </h1>
-       <p class="github-link">
-           <img class="github-link-image" src="./img/github-logo.png" width="32px" height="32px"><a style="color: #0013FF;;" href="https://github.com/notefct" onclick="redirect()">Github</a>
-        </p>
-        <p>
-            <img class="discord-logo" src="./img/discord-logo.png" width="32px" height="32px"><strong style="color: #5865f2;">Discord:</strong> Edu#3399
-        </p>
-       <h2 class="header-phrase">
-            I'm currently learning the following technologies:
-           <br><strong class="html-text" style="color: orangered;">&lt;/html&gt;</strong>
-           <br><strong style="color: #0064FF;">{Css}</strong>
-           <br>console.log("<strong style="color: yellow;">Javascript</strong>")
-       </h2>
-   </header>
+    <div class="page">
+        <header class="page-header">
+            <nav class="navbar" aria-label="Navigation" role="navigation">
+                <a class="navbar-logo" href="/">
+                    <figure class="figure-global" title="Notefct">
+                        <img class="profile-github" src="./img/ProfileImage_Github.png" width="192px" height="192px"/>
+                        <span>Notefct</span>
+                    </figure>
+                </a>
+                <div class="navbar-itens">
+                    <ul class="navbar-itens__list">
+                        <li class="navbar-item">
+                            <a class="social-media" href="https://github.com/notefct">
+                                <span class="item-link">
+                                    <img class="github-link-image" src="./img/github-logo.png" width="32px" height="32px">
+                                    <span>Github</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="social-media" href="https://github.com/notefct">
+                                <span class="item-link">
+                                    <img class="discord-logo" src="./img/github-logo.png" width="32px" height="32px">
+                                    <span>Discord: <strong style="color: #5865f2;">Edu#3399</strong></span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+   <main class="main-content" role="main">
+     <article class="article page-article">
+       <h1 class="header-github-name">Hi, my name is Edu👋</h1>
+       <section class="social-medias-list">
+           <ul class="social-medias">
+             <li class="social-media">
+                 <a class="github-link" href="https://github.com/notefct">
+                     <img class="github-link-image" src="./img/github-logo.png" width="32px" height="32px"/>
+                 </a>
+             </li>
+        <li class="social-media">
+            <img class="discord-logo" src="./img/discord-logo.png" width="32px" height="32px"/><strong style="color: #5865f2;">Discord:</strong> Edu#3399
+        </li>
+           </ul>
+       </section>
+       
+       <section class="header-phrase">
+           <div class="languages">I'm currently learning the following technologies:</div>
+           <ul class="languages-list">
+               <li><strong class="html-text" style="color: orangered;">&lt;/html&gt;</strong></li>
+               <li><strong style="color: #0064FF;">{Css}</strong></li>
+               <li>console.log("<strong style="color: yellow;">Javascript</strong>")</li>
+           </ul>
+       </section>
+     </article>
+   </main>
+        
+     <footer role="contentinfo">
+         <div class="footer-content">
+             <div class="footer-copyright">
+                 <p>Copyright © Edu 2021<br><br>All rights reserved.</p>
+             </div>
+         </div>
+        </footer>
 
    <script src="./script/index.js"></script>
 </body>
